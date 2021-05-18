@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# VC C++ hiden folder
+*.db
+*.opendb
