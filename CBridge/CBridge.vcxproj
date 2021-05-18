@@ -123,6 +123,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CConcreteEssenceFirst.cpp" />
+    <ClCompile Include="CConcreteEssenceSecond.cpp" />
+    <ClCompile Include="IInterfaceImpl.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CConcreteEssenceFirst.hpp" />
+    <ClInclude Include="CConcreteEssenceSecond.hpp" />
+    <ClInclude Include="Abstraction.hpp" />
+    <ClInclude Include="IInterfaceImpl.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
