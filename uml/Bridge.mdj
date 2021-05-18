@@ -49,7 +49,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 272,
-											"top": 240,
+											"top": 224,
 											"height": 13
 										},
 										{
@@ -60,10 +60,10 @@
 											},
 											"font": "Arial;13;1",
 											"left": 141,
-											"top": 127,
+											"top": 119,
 											"width": 80.57080078125,
 											"height": 13,
-											"text": "IInterface"
+											"text": "Abstraction"
 										},
 										{
 											"_type": "LabelView",
@@ -74,7 +74,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 272,
-											"top": 240,
+											"top": 224,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -88,14 +88,14 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 272,
-											"top": 240,
+											"top": 224,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 136,
-									"top": 120,
+									"top": 112,
 									"width": 90.57080078125,
 									"height": 25,
 									"stereotypeLabel": {
@@ -122,7 +122,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 136,
-									"top": 145,
+									"top": 137,
 									"width": 90.57080078125,
 									"height": 10
 								},
@@ -147,7 +147,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 141,
-											"top": 160,
+											"top": 152,
 											"width": 80.57080078125,
 											"height": 13,
 											"text": "+Operation()",
@@ -156,7 +156,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 136,
-									"top": 155,
+									"top": 147,
 									"width": 90.57080078125,
 									"height": 23
 								},
@@ -172,7 +172,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 136,
-									"top": 120,
+									"top": 112,
 									"width": 10,
 									"height": 10
 								},
@@ -188,7 +188,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 136,
-									"top": 120,
+									"top": 112,
 									"width": 10,
 									"height": 10
 								}
@@ -196,7 +196,7 @@
 							"font": "Arial;13;0",
 							"containerChangeable": true,
 							"left": 136,
-							"top": 120,
+							"top": 112,
 							"width": 90.57080078125,
 							"height": 58,
 							"nameCompartment": {
@@ -1262,7 +1262,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "IInterface",
+					"name": "Abstraction",
 					"operations": [
 						{
 							"_type": "UMLOperation",
