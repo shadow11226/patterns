@@ -34,3 +34,5 @@
 # VC C++ hiden folder
 *.db
 *.opendb
+CBridge/.vs
+CBridge/Debug
