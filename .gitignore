@@ -36,3 +36,5 @@
 *.opendb
 CBridge/.vs
 CBridge/Debug
+CAdapter/.vs
+CAdapter/Debug
