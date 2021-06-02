@@ -32,7 +32,14 @@
 *.app
 
 # VC C++ hiden folder
+*.suo
+*.ipch
+*.ilk
+*.pdb
+*.log
+*.tlog
 *.db
+*.idb
 *.opendb
 CBridge/.vs
 CBridge/Debug
