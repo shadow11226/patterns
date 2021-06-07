@@ -5,7 +5,7 @@ int main()
 {
    Client clinet;
 
-   clinet.go();
+   clinet.go(); 
 
    return 0;
 }
