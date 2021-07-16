@@ -2,21 +2,27 @@
 #define CInvoker_HPP
 
 #include "ICommand.hpp"
-
+#include "CDocument.hpp"
+#include "vector"
 class CInvoker
 {
 public:
 
-   CInvoker(/* args */)
-   {}
+   CInvoker(/* args */);
 
-   ~CInvoker()
-   {}
+   ~CInvoker();
 
-   virtual void execute() = 0;
+   void insert(int line, const string& str);
+
+   void undo();
+
+   void show();
 
 private:
-   /* data */
+   
+   vector<ICommand*> mDoneDocument;
+   CDocument mDoc;
+   ICommand* mCommand;
 };
 
 
